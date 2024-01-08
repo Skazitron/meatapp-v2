@@ -1,0 +1,19 @@
+/* calendarStyles.css */
+.rbc-calendar {
+  @apply bg-white text-gray-700;
+  @apply flex flex-row
+}
+
+.rbc-header {
+  @apply bg-blue-500 text-white p-2;
+}
+
+.rbc-today {
+  @apply bg-blue-100;
+}
+
+.rbc-event {
+  @apply bg-green-500 text-white p-1 rounded;
+}
+
+/* Add more customizations as needed... */
